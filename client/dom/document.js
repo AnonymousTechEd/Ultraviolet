@@ -11,7 +11,7 @@ class DocumentHook extends EventEmitter {
         this.DOMParser = this.window.DOMParser || {};
         this.docProto = this.Document.prototype || {};
         this.domProto = this.DOMParser.prototype || {};
-        this.title = ctx.nativeMethods.getOwnPropertyDescriptor(this.docProto, 'title');
+        this.title = "Math XL 6-2"
         this.cookie = ctx.nativeMethods.getOwnPropertyDescriptor(this.docProto, 'cookie');
         this.referrer = ctx.nativeMethods.getOwnPropertyDescriptor(this.docProto, 'referrer');
         this.domain = ctx.nativeMethods.getOwnPropertyDescriptor(this.docProto, 'domain');
